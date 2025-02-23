@@ -1,0 +1,155 @@
+:root {
+  --primary: rgb(192, 142, 3);
+  --bg: #010101;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hero .content h2 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+.heading {
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.navbar_logo span {
+  color: var(--primary);
+}
+
+.hero .content span {
+  color: var(--primary);
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "poppins", sans-serif;
+  color: #fff;
+  background-image: url(../cover_bg.jpg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar_logo {
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.login_page .row {
+  display: inline-block;
+  background-color: #00000077;
+  align-items: center;
+  padding: 1rem;
+  width: fit-content;
+  border-radius: 2%;
+}
+
+.login_page .row form {
+  flex: 1 1 45rem;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.login_page .row form .input_group input {
+  font-size: 1rem;
+  background: #000000b7;
+  color: #c0c0c0;
+  border: #dbdbdb36;
+  text-align: left;
+  background-blend-mode: color-burn;
+  display: block;
+  padding: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.login_page .row p {
+  padding: 1rem 0;
+}
+
+.login_page .row form {
+  padding: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.input_group label {
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+}
+
+.login_page .row .footer a {
+  color: #fff;
+}
+
+label {
+  color: #fff;
+  text-align: left;
+}
+
+.hero .content {
+  padding: 2rem;
+  margin-top: 4em;
+}
+
+.login_page .row form .btn {
+  margin-top: 3rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: #030303;
+  cursor: pointer;
+}
+
+a {
+  color: #fff;
+}
+
+footer {
+  background-color: var(--bg);
+  text-align: center;
+  padding: 1rem 0 0.5rem;
+  margin-top: 8.5rem;
+}
+
+footer .links {
+  margin-bottom: 1rem;
+}
+
+footer .links a {
+  color: #fff;
+  margin: 0.5rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 800;
+}
+
+.input_group {
+  text-align: left;
+  padding: 1rem;
+}
