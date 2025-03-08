@@ -150,10 +150,11 @@ input {
 .text_box input {
   width: 100%;
   padding-top: 10px;
-  background: #f4f1f7;
+  background: #1d1d1d;
   outline: none;
-  color: inherit;
+  color: #f9f9f9;
   box-shadow: 0 0 2px transparent;
+  font-weight: 400;
 }
 
 .text_box input:focus {
@@ -180,7 +181,7 @@ input {
 }
 
 .login p {
-  margin: 48px 0 0;
+  margin: 28px 0 0;
   font-size: 14px;
   color: var(--bg);
   font-weight: 400;
