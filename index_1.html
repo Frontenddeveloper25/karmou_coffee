@@ -1,192 +1,288 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Karmoucoffee</title>
-
-    <!----fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=poppins:wght@100;300;400;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!----feather icon-->
-    <script src="https://unpkg.com/feather-icons"></script>
-
-    <!----my style-->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!---navbar start-->
-    <nav class="navbar">
-      <a href="#" class="navbar-logo"> karmou<span>coffee</span>.</a>
-
-      <div class="navbar-nav">
-        <a href="#home">Home </a>
-        <a href="#about">Tentang kami</a>
-        <a href="#Menu"> Menu</a>
-        <a href="#Kontak">Kontak</a>
-      </div>
-
-      <div class="navbar-extra">
-        <a href="#" id="search"> <i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"> <i data-feather="shopping-cart"></i></a>
-        <a href="#" id="menu"> <i data-feather="menu"></i></a>
-      </div>
-    </nav>
-    <!---navbar end-->
-
-    <!---hero section start-->
-    <section class="hero" id="home">
-      <main class="content">
-        <h1>Nikmati <span>Kualitas</span> kopi terbaik di indonesia</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sunt
-          officiis, possimus explicabo omnis sequi voluptates alias accusantium
-          odit assumenda natus labore sit
-        </p>
-        <a href="file:///C:/Users/USER/Desktop/testing_frontend/login.html/login.html?#" class="cta"> Beli sekarang</a>
-      </main>
-    </section>
-
-    <!---hero section end-->
-  </body>
-
-
-    <!---about section start-->
-    <section class="about" id="about">
-      <h2>Tentang <span>Kami</span></h2>
-
-      <div class="row">
-      <div class="tentang_kami">
-        <img src="img/tentang_kami2.jpg" alt="tentang kami">
-      </div>
-
-      <div class="content">
-        <h3>Kenapa harus kami?</h3>
-        <p>
-          Nikmati setiap tegukan kehidupan dengan secangkir Kopi Karmou, Dari biji kopi terbaik hingga campuran beraroma.
-        </p>
-        <p>
-          Karmou Coffee siap menemani hari-hari Anda dengan cita rasa yang tak terlupakan. Kopi terbaik, hanya di  <a href="https://www.instagram.com/login" class="karmou_link"> <span>karmou</span>.</a>
-      </div>
-    </section>
-    
-    <!---about section end-->
-
-
-    <!---menu section start-->
-    <section class="Menu" id="Menu">
-      <h2>Menu <span>Kami</span></h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, quis rem consequuntur expedita sapiente perferendis. Lorem ipsum ?</p>
-      <div class="row">
-        <div class="card_menu">
-          <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
-          <h3 class="card_menu_tittle"><li>Manual Brew</li></h3> 
-          <p class="card_menu_price"> IDR 18k </p>
+<div>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Karmoucoffee</title>
+  
+      <!----fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=poppins:wght@100;300;400;700&display=swap"
+        rel="stylesheet"
+      />
+  
+      <!----feather icon-->
+      <script src="https://unpkg.com/feather-icons"></script>
+  
+      <!----my style-->
+      <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+      <!---navbar start-->
+      <nav class="navbar">
+        <a href="#" class="navbar-logo"> karmou<span>coffee</span>.</a>
+  
+        <div class="navbar-nav">
+          <a href="#home">Home </a>
+          <a href="#about">Tentang kami</a>
+          <a href="#Menu"> Menu</a>
+          <a href="#products"> Produk</a>
+          <a href="#Kontak">Kontak</a>
         </div>
-        <div class="card_menu">
-          <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
-          <h3 class="card_menu_tittle"><li>espresso</li></h3> 
-          <p class="card_menu_price"> IDR 18k </p>
+  
+        <div class="navbar-extra">
+          <a href="#" id="search_button"> <i data-feather="search"></i></a>
+          <a href="#" id="shopping_cart"> <i data-feather="shopping-cart"></i></a>
+          <a href="#" id="menu"> <i data-feather="menu"></i></a>
         </div>
-        <div class="card_menu">
-          <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
-          <h3 class="card_menu_tittle"><li>americano</li></h3> 
-          <p class="card_menu_price"> IDR 18k </p>
+  
+        <!-- search form star -->
+         
+        <div class="search_form">
+          <input type="search" id="search_box" placeholder="search here...">
+          <label for="search_box"><i data-feather="search"></i></label>
         </div>
-        <div class="card_menu">
-          <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
-          <h3 class="card_menu_tittle"><li>coffee latte</li></h3> 
-          <p class="card_menu_price"> IDR 18k </p>
-        </div>
-        <div class="card_menu">
-          <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
-          <h3 class="card_menu_tittle"><li>hezelnut latte</li></h3> 
-          <p class="card_menu_price"> IDR 18k </p>
-        </div>
-        <div class="card_menu">
-          <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
-          <h3 class="card_menu_tittle"><li>matcha latte</li></h3> 
-          <p class="card_menu_price"> IDR 18k </p>
-        </div>
-        <div class="card_menu">
-          <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
-          <h3 class="card_menu_tittle"><li>vanila latte</li></h3> 
-          <p class="card_menu_price"> IDR 18k </p>
-        </div>
-        <div class="card_menu">
-          <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
-          <h3 class="card_menu_tittle"><li>coffee latte</li></h3> 
-          <p class="card_menu_price"> IDR 18k </p>
-        </div>
-      </div>
- </section>
-       <!----menu section end-->
-
-       <!---contact section start-->
-       <section class="Kontak" id="Kontak">
-        <h2>Kontak <span>kami</span></h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor deserunt explicabo architecto quos odit iste.</p>
-
-        <div class="row">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.5882272070253!2d107.00841807590638!3d-6.185822993801729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTEnMDkuMCJTIDEwN8KwMDAnMzkuNiJF!5e0!3m2!1sid!2sid!4v1740241406797!5m2!1sid!2sid"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
         
-        <form action="">
-          <div class="input_group">
-            <i data-feather="user"></i>
-            <input type="text" placeholder="text">
+        <!-- search form end -->
+  
+      </nav>
+      <!---navbar end-->
+  
+      <!---hero section start-->
+      <section class="hero" id="home">
+        <main class="content">
+          <h1>Nikmati <span>Kualitas</span> kopi terbaik di indonesia</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sunt
+            officiis, possimus explicabo omnis sequi voluptates alias accusantium
+            odit assumenda natus labore sit
+          </p>
+          <a href="file:///C:/Users/USER/Desktop/testing_frontend/login.html/login.html?#" class="cta"> Beli sekarang</a>
+        </main>
+      </section>
+  
+      <!---hero section end-->
+    </body>
+  
+  
+      <!---about section start-->
+      <section class="about" id="about">
+        <h2>Tentang <span>Kami</span></h2>
+  
+        <div class="row">
+        <div class="tentang_kami">
+          <img src="img/tentang_kami2.jpg" alt="tentang kami">
+        </div>
+  
+        <div class="content">
+          <h3>Kenapa harus kami?</h3>
+          <p>
+            Nikmati setiap tegukan kehidupan dengan secangkir Kopi Karmou, Dari biji kopi terbaik hingga campuran beraroma.
+          </p>
+          <p>
+            Karmou Coffee siap menemani hari-hari Anda dengan cita rasa yang tak terlupakan. Kopi terbaik, hanya di  <a href="https://www.instagram.com/login" class="karmou_link"> <span>karmou</span>.</a>
+        </div>
+      </section>
+      
+      <!---about section end-->
+  
+  
+      <!---menu section start-->
+      <section class="Menu" id="Menu">
+        <h2>Menu <span>Kami</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, quis rem consequuntur expedita sapiente perferendis. Lorem ipsum ?</p>
+        <div class="row">
+          <div class="card_menu">
+            <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
+            <h3 class="card_menu_tittle"><li>Manual Brew</li></h3> 
+            <p class="card_menu_price"> IDR 18k </p>
           </div>
-          <div class="input_group">
-            <i data-feather="mail"></i>
-            <input type="text" placeholder="email">
+          <div class="card_menu">
+            <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
+            <h3 class="card_menu_tittle"><li>espresso</li></h3> 
+            <p class="card_menu_price"> IDR 18k </p>
           </div>
-          <div class="input_group">
-            <i data-feather="phone"></i>
-            <input type="text" placeholder="no hp">
+          <div class="card_menu">
+            <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
+            <h3 class="card_menu_tittle"><li>americano</li></h3> 
+            <p class="card_menu_price"> IDR 18k </p>
           </div>
-          <button type="submit" class="btn">kirim pesan</button>
-        </form>
+          <div class="card_menu">
+            <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
+            <h3 class="card_menu_tittle"><li>coffee latte</li></h3> 
+            <p class="card_menu_price"> IDR 18k </p>
           </div>
-
-       </section>
-      <!---contact section end-->
-
-
-       <!--footer start-->
-       <footer>
-       <div class="socials">
-        <a href="#"><i data-feather="instagram"></i></a>
-        <a href="#"><i data-feather="twitter"></i></a>
-        <a href="#"><i data-feather="facebook"></i></a>
-       </div>
-
-       <div class="links">
-        <a href="#home"> home</a>
-        <a href="#about"> Tentang kami</a>
-        <a href="#Menu"> Menu</a>
-        <a href="#Kontak">Kontak</a>
-       </div>
-
-       <div class="credit">
-        <p>Created by<a href=""> Nz.rae </a> | &copy; 2025.</p>
-       </div>
-      </footer>
-       
-       <!--footer end-->
-
-
-
-
-
-    <!---feather icons-->
-    <script>
-      feather.replace();
-    </script>
-    <!---my javascript-->
-    <script src="js/script.js"></script>
-  </body>
-</html>
+          <div class="card_menu">
+            <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
+            <h3 class="card_menu_tittle"><li>hezelnut latte</li></h3> 
+            <p class="card_menu_price"> IDR 18k </p>
+          </div>
+          <div class="card_menu">
+            <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
+            <h3 class="card_menu_tittle"><li>matcha latte</li></h3> 
+            <p class="card_menu_price"> IDR 18k </p>
+          </div>
+          <div class="card_menu">
+            <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
+            <h3 class="card_menu_tittle"><li>vanila latte</li></h3> 
+            <p class="card_menu_price"> IDR 18k </p>
+          </div>
+          <div class="card_menu">
+            <img src="img/menu/v60_menu001.jpg" alt="v60hot" class="card_menu_img">
+            <h3 class="card_menu_tittle"><li>coffee latte</li></h3> 
+            <p class="card_menu_price"> IDR 18k </p>
+          </div>
+        </div>
+   </section>
+         <!----menu section end-->
+  
+         <!-- product -->
+          <section class="products" id="products">
+            <h2>Produk <span>kami</span></h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam consectetur, sit quos adipisci ipsa alias?</p>
+  
+            <div class="row">
+              <div class="product_card">
+                
+                <div class="product_icons">
+                  <a href="#"><i data-feather="shopping-cart"></i></a>
+                  <a href=""><i data-feather="eye"></i></a>
+                </div>
+  
+                <div class="product_image">
+                  <img src="../Desktop/testing_frontend/img/product/product1.jpg" alt="product 1">
+                </div>
+  
+                 <div class="product_content">
+                  <h3>Kintamani</h3>
+                  <div class="product_stars">
+                    <i data-feather="star" class="star"></i>
+                    <i data-feather="star" class="star"></i>
+                    <i data-feather="star" class="star"></i>
+                    <i data-feather="star" class="star"></i>
+                  </div>
+                  
+                  <div class="product_price">IDR 28k <span>IDR 30k</span></div>
+                 </div>
+  
+              </div>
+              <div class="product_card">
+                
+                <div class="product_icons">
+                  <a href="#"><i data-feather="shopping-cart"></i></a>
+                  <a href=""><i data-feather="eye"></i></a>
+                </div>
+  
+                <div class="product_image">
+                  <img src="../Desktop/testing_frontend/img/product/product1.jpg" alt="product 1">
+                </div>
+  
+                 <div class="product_content">
+                  <h3>Kintamani</h3>
+                  <div class="product_stars">
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                  </div>
+                  
+                  <div class="product_price">IDR 28k <span>IDR 30k</span></div>
+                 </div>
+  
+              </div>
+              <div class="product_card">
+                
+                <div class="product_icons">
+                  <a href="#"><i data-feather="shopping-cart"></i></a>
+                  <a href=""><i data-feather="eye"></i></a>
+                </div>
+  
+                <div class="product_image">
+                  <img src="../Desktop/testing_frontend/img/product/product1.jpg" alt="product 1">
+                </div>
+  
+                 <div class="product_content">
+                  <h3>Kintamani</h3>
+                  <div class="product_stars">
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                    <i data-feather="star"></i>
+                  </div>
+                  
+                  <div class="product_price">IDR 28k <span>IDR 30k</span></div>
+                 </div>
+  
+              </div>
+            </div>
+        </section>
+         <!-- prodocut -->
+  
+         <!---contact section start-->
+         <section class="Kontak" id="Kontak">
+          <h2>Kontak <span>kami</span></h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor deserunt explicabo architecto quos odit iste.</p>
+  
+          <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3966.5882272070253!2d107.00841807590638!3d-6.185822993801729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwMTEnMDkuMCJTIDEwN8KwMDAnMzkuNiJF!5e0!3m2!1sid!2sid!4v1740241406797!5m2!1sid!2sid"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+          
+          <form action="">
+            <div class="input_group">
+              <i data-feather="user"></i>
+              <input type="text" placeholder="text">
+            </div>
+            <div class="input_group">
+              <i data-feather="mail"></i>
+              <input type="text" placeholder="email">
+            </div>
+            <div class="input_group">
+              <i data-feather="phone"></i>
+              <input type="text" placeholder="no hp">
+            </div>
+            <button type="submit" class="btn">kirim pesan</button>
+          </form>
+            </div>
+  
+         </section>
+        <!---contact section end-->
+  
+  
+         <!--footer start-->
+         <footer>
+         <div class="socials">
+          <a href="#"><i data-feather="instagram"></i></a>
+          <a href="#"><i data-feather="twitter"></i></a>
+          <a href="#"><i data-feather="facebook"></i></a>
+         </div>
+  
+         <div class="links">
+          <a href="#home"> home</a>
+          <a href="#about"> Tentang kami</a>
+          <a href="#Menu"> Menu</a>
+          <a href="#Kontak">Kontak</a>
+         </div>
+  
+         <div class="credit">
+          <p>Created by<a href=""> Nz.rae </a> | &copy; 2025.</p>
+         </div>
+        </footer>
+         
+         <!--footer end-->
+  
+  
+  
+  
+  
+      <!---feather icons-->
+      <script>
+        feather.replace();
+      </script>
+      <!---my javascript-->
+      <script src="js/script.js"></script>
+    </body>
+  </html>
+  
+</div>
