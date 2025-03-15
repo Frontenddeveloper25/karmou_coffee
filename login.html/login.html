@@ -21,16 +21,18 @@
         <img src="lock.svg" />
         <h1>Selamat datang di <span>karmou</span></h1>
         <h3>login terlebih dahulu</h3>
-        <form class="form">
+        <form class="form" id="form-login" onsubmit="return validateLogin()">
           <div class="text_box">
-            <input required type="text" />
+            <input type="email" id="email" required />
             <label>Email</label>
+            <div id="emailError" class="error"></div>
           </div>
           <div class="text_box">
-            <input required type="password" />
+            <input type="password" id="password" required />
             <label>Password</label>
+            <div id="passwordError" class="error"></div>
           </div>
-          <button type="submit">login</button>
+          <button type="submit" onclick="login()">login</button>
         </form>
         <a href="">Lupa Password</a>
         <p class="footer">
@@ -43,5 +45,6 @@
         </p>
       </div>
     </section>
+    <script src="js/login1.js"></script>
   </body>
 </html>
